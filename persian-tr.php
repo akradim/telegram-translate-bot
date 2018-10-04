@@ -1,5 +1,5 @@
 <?php
-define('API_KEY','500900601:AAF8DumK_dHT9LI8ec0BSBA0_5952'); 
+define('API_KEY','660712266:AAG9o1wZ6LHM0byQG2QTmID4tdDUfVlvOkk'); 
 $telegram = json_decode(file_get_contents('php://input'),true);
 $user_id = $telegram['message']['chat']['id'];
 $text = $telegram['message']['text'];
